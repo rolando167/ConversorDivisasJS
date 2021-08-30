@@ -1,7 +1,7 @@
 const monedas = [
 	{
 		id: 1,
-		nombre: 'Peso'
+		nombre: 'Sol'
 	},
 	{
         id: 2,
@@ -13,7 +13,7 @@ const monedas = [
     },
 	{
         id: 4,
-        nombre: 'Sol'
+        nombre: 'Peso Mexicano'
     },
 
 ];
