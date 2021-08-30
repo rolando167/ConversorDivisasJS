@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Express App 🥎</title>
-    <link rel="stylesheet" href="css/main.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Express App 💸</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+	<center>
+		<h3><ins>Conversor de Divisas</ins></h3>
+	</center>
+
+		<div class="ml-30">
+			Cantidad
+			<input type="range" id="cantidad" min="0" max="1000" value="0" onchange="changeConvertir()">
+			💵<span id="valor">0</span>
+		</div>
+		<br>
+
+		<div class="ml-30">
+			Convertir De:
+			<select name="" id="monedaDesde" onchange="changeConvertir()">
+				 
+			</select>
+
+		</div>
+		<br>
+
+		<div class="ml-30">
+			Convertir A:
+			<select name="" id="monedahasta" onchange="changeConvertir()">
+				 
+			</select>
+			<br>
+		</div>
+		<hr>
+		<div class="ml-30">
+			Resultado:  <h1 id="resultado">$0.00</h1>
+		</div>
+		<hr>
 </body>
 <script src="js/app.js"></script>
 </html>
