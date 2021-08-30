@@ -11,7 +11,7 @@ function logger(req, res, next) {
     next(); // pass control to the next handler
 };
 
-// app.use(cors);
+app.use(cors());
 app.use(express.json());
 // app.use(logger); // ejecuta a dodne va el usuario o sino usar morgan
 app.use(morgan('dev'));

@@ -4,7 +4,7 @@ const router = express.Router();
 var users = require('./users');
 
 
-router.get('/', function(req, res) {
+router.get('/', function(req, res, next) {
     res.send('Bienvenidos a la pagina principal API!! ✋');
 });
 
